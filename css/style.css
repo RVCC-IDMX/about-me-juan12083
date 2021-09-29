@@ -1,0 +1,28 @@
+body {
+    font-family: Abel;
+    
+    background-color: #F0AB50;
+    color: #448B9E;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+font-family: "Koh Santepheap";
+font-size: 50pt;
+}
+
+#bio {
+    text-align: center;
+}
+
+#hero, footer {
+    background-color: #BD9C2B;
+    border: 2px solid#E6F04F ; 
+    text-align: center;
+    padding: 10px;
+}
+
+#hero img {
+    width: 300px;
+}
+
