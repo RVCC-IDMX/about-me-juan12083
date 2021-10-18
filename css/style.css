@@ -8,12 +8,16 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 font-family: "Koh Santepheap";
-font-size: 50pt;
+text-align: center;
 }
+h1 {
+    font-size: 50pt;
+}h1
 
 #bio {
     text-align: center;
 }
+
 
 #hero, footer {
     background-color: #BD9C2B;
@@ -21,8 +25,31 @@ font-size: 50pt;
     text-align: center;
     padding: 10px;
 }
-
+/* hero section */
 #hero img {
     width: 300px;
 }
 
+/* Bio Section */
+#bio {
+    text-align: center;
+}
+
+/* Hobbies */
+#hobbies ul li:nth-child(even){
+    color: #BD9C2B;
+}
+
+/* Gallery */
+
+#gallery{
+    border: 6px solid#448B9E;
+}
+
+#gallery img{
+    max-width: 100%;
+}
+
+#gallery figure{
+    text-align: center;
+}
