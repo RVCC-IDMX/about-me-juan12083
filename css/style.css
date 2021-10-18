@@ -9,10 +9,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
 font-family: "Koh Santepheap";
 text-align: center;
+font-size: 50pt;
 }
-h1 {
-    font-size: 50pt;
-}h1
+
 
 #bio {
     text-align: center;
@@ -44,6 +43,7 @@ h1 {
 
 #gallery{
     border: 6px solid#448B9E;
+    margin-bottom: 2rem;
 }
 
 #gallery img{
@@ -52,4 +52,29 @@ h1 {
 
 #gallery figure{
     text-align: center;
+}
+
+/* literature */
+#lit {
+    border: 6px solid#448B9E;
+    margin-bottom: 2rem;
+}
+
+#lit div{
+    padding: 2rem;
+    max-width: 40rem;
+    margin:0 auto
+}
+
+#lit div p{
+    padding: 0.3rem 0;
+    clear: both;
+}
+
+#lit div p:first-letter{
+    color: crimson;
+    float: left;
+    padding: .4em;
+    font-size: 1em;
+    border: 1px solid black;
 }
